@@ -541,32 +541,37 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div>
+
           <!-- input -->
-          <form>
-            <label
-              >Subscribe
-              <input type="email" name="email" placeholder="Email" />
-            </label>
-            <button class="button-subscribe" type="submit">
-              Subscribe
-              <svg class="svg-social-media" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame-3"></use>
-              </svg>
-            </button>
-          </form>
+          <div class="footer-button">
+            <p class="footer-para">Subscribe</p>
+            <form class="form-footer">
+              <label class="form-label-footer">
+                Subscribe
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  class="input-email-footer"
+                />
+              </label>
+              <button class="button-subscribe" type="submit">
+                Subscribe
+                <svg class="svg-social-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame-3"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </footer>
-    </div>
 
-    <!-- modal -->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="modal-close" type="button" data-modal-close>x</button>
+      <!-- modal -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal-close" type="button" data-modal-close>x</button>
+        </div>
       </div>
     </div>
-
-    <script src="./js/modal.js"></script>
   </body>
 </html>

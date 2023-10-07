@@ -487,31 +487,79 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .social-media-link:focus{ background-color: #31d0aa; }
 .svg-social-media{ fill: #F4F4FD ;}
 
-.button-subscribe{color: var(--WHITE, #FFF);
-text-align: center;
-/* Button Text */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
-display: inline-flex;
-padding: 8px 24px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
+
+/* footer button */
+ 
+.footer-button{
+
 }
-.svg-social-media{ fill: white;}
-input::placeholder{ color: var(--WHITE, #FFF);
+.footer-para{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.form-footer{ 
+display: flex;
+gap 24px;
+
+}
+.form-label-footer{ 
+
+}
+
+.input-email-footer{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+}
+input::placeholder {
+    color: var(--WHITE, #FFF);
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.48px;}
+    letter-spacing: 0.48px;
+}
+.button-subscribe {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    min-width: 165px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+.svg-social-media {
+    fill: white;
+    margin-left: 16px;
+    
+}
 
 
     /* modal */
