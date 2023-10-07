@@ -503,7 +503,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 }
 .form-footer{ 
 display: flex;
-gap 24px;
+gap: 24px;
 
 }
 .form-label-footer{ 
@@ -536,7 +536,7 @@ input::placeholder {
     color: var(--WHITE, #FFF);
     text-align: center;
     /* Button Text */
-    font-family: Roboto;
+font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -558,7 +558,7 @@ input::placeholder {
 .svg-social-media {
     fill: white;
     margin-left: 16px;
-    
+
 }
 
 
