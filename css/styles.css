@@ -724,7 +724,7 @@ position: relative;
 .svg-vector{ 
 
 }
-.input-privacy:checked .lable-span{background-color: #404bbf; 
+.input-privacy:checked+ .label-user-privacy .lable-span{background-color: #404bbf; 
 border: none;
 fill: #F4F4FD;
 }
